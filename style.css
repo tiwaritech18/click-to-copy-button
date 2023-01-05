@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+:root{
+    --clr-primary-cyan:hsl(158, 36%, 37%);
+    --clr-primary-darkcyan:hsl(158, 36%, 15%);
+    --clr-primary-cream:hsl(30, 38%, 92%);
+    --clr-neutral-darkblue:hsl(212, 21%, 14%);
+    --clr-neutral-greyishblue:hsl(228, 12%, 48%);
+    --clr-neutral-white:hsl(0, 0%, 100%);
+  
+    --fw-regular:500;
+    --fw-bold:700;
+  
+    --ff-accent: 'Raleway', sans-serif;
+    --ff-base: 'Montserrat', sans-serif;
+  
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: var(--ff-accent);
+    font-size: 1rem;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: rgb(2,0,36);
+    color: aliceblue;
+}
+.container{
+    display: grid;
+    gap: 1rem;
+}
+.copy-text{
+    display:flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding: 1rem;
+}
+#copy{
+    padding: 6px 15px;
+    border: 0;
+    border-radius: 4px;
+    font-family: var(--ff-accent);
+    font-weight: 600;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
